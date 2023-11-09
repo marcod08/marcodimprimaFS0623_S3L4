@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    font-size: 1.5em;
+}
+
+#contenitore > div {
+    display: inline-block;
+    width: 9%;
+    border: 0.5px solid yellow;
+    text-align: center;
+    margin: 1%;
+}
+
+.selected {
+    background-color: aqua;
+    color: yellow;
+}
